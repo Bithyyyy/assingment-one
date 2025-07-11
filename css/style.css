@@ -18,7 +18,7 @@
     min-height: 100vh;  
     padding: 50px 20px; 
 }
-nav{
+.nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,6 +35,13 @@ nav{
     height: 40px;
     cursor: pointer;
     
+}
+.button-sig:hover{
+  background-color: rgb(198, 198, 62);
+  color: black;
+  font-size:17px;
+  transform: scale(1.1);
+  
 }
 
 .raleway {
@@ -222,6 +229,13 @@ nav{
   width: 170px;
   font-size: 14;
 }
+.button-free:hover{
+  background-color: rgb(198, 198, 62);
+  color: black;
+  font-size:17px;
+  transform: scale(1.1);
+  
+}
 .focus-content{
   text-align: center;
  
@@ -284,6 +298,13 @@ nav{
   width: 350px;
 
 }
+.submit-btn:hover{
+  background-color: rgb(198, 198, 62);
+  color: black;
+  font-size:17px;
+  transform: scale(1.1);
+  
+}
 
 /* footer section */
 .footer-sec{
@@ -315,3 +336,4 @@ a{
   margin-left: 2px;
   
 }
+
