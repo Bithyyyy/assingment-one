@@ -11,7 +11,7 @@
   }
   
 .page1{
-    background-image: url("Assets/Hero-bg.png");
+    background-image: url("./Assets/Hero-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -295,7 +295,6 @@
   border:0;
   height: 40px;
   cursor: pointer;
-  width: 350px;
 
 }
 .submit-btn:hover{
