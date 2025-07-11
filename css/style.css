@@ -25,13 +25,13 @@ nav{
     margin-left: 100px;
     padding: 4px;
     margin-top: 20px;
+
 }
 .button-sig{
     background-color: #4E47FF;
     color: #ffffff;
     border-radius: 5px;
     margin-right: 100px;
-    height:30px;
     border:0;
     height: 40px;
     cursor: pointer;
@@ -54,3 +54,28 @@ nav{
    
 
   }
+.preview-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#f7f9fc ;
+  padding: 100px ;
+}
+.preview-text{
+    max-width: 500px;
+    margin-left: 50px;
+}
+.see{
+  font-family: raleway;
+}
+.explore{
+  font-family: raleway;
+  color:#252432 ;
+  opacity: 50%;
+}
+.preview-image{
+  border-radius: 50px;
+  width: 400px;
+  height: 320px;
+  margin-right: 50px;
+}
